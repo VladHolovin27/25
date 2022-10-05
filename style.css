@@ -1,0 +1,45 @@
+*  {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #084740;
+    height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    margin-top: 40px;
+    text-align: center;
+    background-color: #008d7d;
+    height: 220px;
+    border-radius: 20px;
+    width: 220px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.card-logo {
+    margin-top: 50px;
+    fill: #97d0ca;
+    width: 24px;
+    height: 24px;
+}
+
+.card-text {
+    margin-top: 10px;
+    font-weight: 400;
+    font-family: 'Alkalami', serif;
+    color: white;
+}
+
+.card-logo:hover {
+    fill: red;
+}
+
+.card-text:hover {
+    color: red;
+}
